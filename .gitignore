@@ -1,0 +1,33 @@
+# Java / Maven
+tlias-web-management/target/
+tlias-web-management/*.jar
+tlias-web-management/*.war
+*.class
+*.jar
+*.war
+*.log
+!/.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+.factorypath
+.vscode/
+
+# Node / Vue
+vue-tlias-management/node_modules/
+vue-tlias-management/dist/
+vue-tlias-management/.vite/
+vue-tlias-management/*.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude
+.claude/
